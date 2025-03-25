@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>Sugasini P - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Sugasini P</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Hello, I'm Sugasini P</h2>
+            <p>A passionate IT student skilled in Java, Python, and data science.</p>
+            <button class="cta-btn">Get In Touch</button>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <!-- <img src="image.jpg" alt="Profile Placeholder" class="profile-img"> -->
+            <p>I am a third-year IT student with expertise in Java, Python, and database management. I have hands-on experience in full-stack development and machine learning projects, always eager to apply my skills in real-world applications.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Pizza Landing</h3>
+                <p>Developed a responsive pizza ordering website with real-time customization features using HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/SugasiniP" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Automated Hand Sign Recognition</h3>
+                <p>Implemented a machine learning model achieving 85% accuracy in recognizing hand signs, enhancing accessibility for individuals with impairments.</p>
+                <a href="https://github.com/SugasiniP" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="javascript:void(0);" onsubmit="handleSubmit()">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Sugasini P. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sugasini-p-1b0b30257" target="_blank">
+                <img src="linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/SugasiniP" target="_blank">
+                <img src="github.png" alt="GitHub">
+            </a>
+            <a href="https://leetcode.com/u/sugasini123/" target="_blank">
+                <img src="leetcode.png" alt="LeetCode">
+            </a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
